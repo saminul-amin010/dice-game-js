@@ -8,6 +8,12 @@
       href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
       rel="stylesheet"
     />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      function refresh() {
+        location.reload();
+      }
+    </script>
   </head>
   <body>
     <div class="container">
@@ -23,6 +29,13 @@
         <img class="img2" src="images/dice6.png" />
       </div>
     </div>
+
+    <button
+      onclick="refresh()"
+      class="mx-auto flex mt-16 border px-5 py-3 text-stone-300 rounded-lg hover:bg-stone-700"
+    >
+      Click here to Refresh!
+    </button>
 
     <script src="index.js" charset="utf-8"></script>
   </body>
